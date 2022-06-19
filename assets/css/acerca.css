@@ -1,0 +1,22 @@
+h1 {
+    color: #0D3F72;
+    margin: 15px 0 0 0;
+    font-size: 24px;
+}
+.header-about{
+    background: url('../img/image1-1.png');
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.newsletter{
+    background: rgb(35,120,200);
+    background: linear-gradient(rgba(35,120,200,1) 0%, rgba(35,120,200,0.6306897759103641) 51%, rgba(35,120,200,1) 100%);
+}
+.footer a{
+    color: #0D3F72;
+    font-size: 12px;
+}
+.footer .bg-navy {
+    background-color: #0D3F72;
+}
