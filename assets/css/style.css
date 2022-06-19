@@ -70,8 +70,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+header{
+  height: 122px;
+}
 #header {
   height: 72px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: #0D3F72;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+#header2 {
+  height: 50px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -97,6 +108,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #main {
   margin-top: 72px;
+}
+.btn-get-header {
+  font-family: Lato, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 13px 35px;
+  transition: 0.5s;
+  color: #fff;
+  background: #F44B42;
+}
+.btn-get-header:hover {
+  background: #0D3F72;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
