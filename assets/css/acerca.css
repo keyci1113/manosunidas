@@ -13,10 +13,23 @@ h1 {
     background: rgb(35,120,200);
     background: linear-gradient(rgba(35,120,200,1) 0%, rgba(35,120,200,0.6306897759103641) 51%, rgba(35,120,200,1) 100%);
 }
-.footer a{
+#footer a{
     color: #0D3F72;
     font-size: 12px;
 }
-.footer .bg-navy {
+.bg-navy {
     background-color: #0D3F72;
+}
+.color-navy {
+    background-color: #0D3F72;
+}
+.project-card {
+    font-size: 14px;
+    font-weight: bold;
+}
+.project-aside {
+    font-size: 14px;
+}
+.project-card-text {
+    height: 100%;
 }
